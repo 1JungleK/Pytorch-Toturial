@@ -45,3 +45,4 @@ class Vit(nn.Module):
         x = self.encoder_layers(x)
         x = self.MLP(x[:, 0, :])
         return x
+
