@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from models.vit import vit
+from models.Vit import vit
 from einops import rearrange
 
 class EncoderBottlneck(nn.Module):
